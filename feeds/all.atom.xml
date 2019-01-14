@@ -1151,13 +1151,6 @@ h6:hover .anchor-link {
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Introduction"&gt;Introduction&lt;a class="anchor-link" href="#Introduction"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;If you are an investor in stocks or bonds you are likely always looking for ways to increase your return or lower your risk, and it turns out there is a way to do both simultaneously called rebalancing. Portfolio rebalancing is something every investor should either do themselves or have done for them. Registered investment advisors like Vanguard and others will provide this service as part of an active management agreement, while robo-advisors such as Betterment will also rebalance automatically. To understand why it's so important, I'll defer to the finance professionals over at &lt;a href="https://www.bogleheads.org/wiki/Rebalancing"&gt;BogleHeads&lt;/a&gt; :&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;Rebalancing is the action of bringing a portfolio that has deviated away from one's target asset allocation back into line. The objective is to maintain a consistent mix of asset classes (most commonly equities vs. fixed income) in order to control risk at the level desired by the investor. This is accomplished by transferring funds from higher-performing classes to lower-performing classes. While potentially counterintuitive, rebalancing ensures that investors "Buy Low" and "Sell High".&lt;/p&gt;
 &lt;/blockquote&gt;
