@@ -1306,13 +1306,7 @@ h6:hover .anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>These days, when people talk about machine learning, they are usually referring to the modern nonlinear methods that tend to win Kaggle competetitions: Random Forests, Gradient Boosted Trees, XGBoost, or the various forms of Neural Networks. People talk about how these modern methods generally provide lower bias and are able to better optimize an objective function than the more traditional methods like Linear Regression or Logistic Regression (for classification). However, when organizations- specifically organizations in heavily regulated industries like finance, healthcare, and insurance - talk about machine learning, they tend to talk about how they can't implement machine learning in their business because it's too much of a "black box."</p>
 <p>These organizations make underwriting and pricing decisions based on predictons for annual income, credit default risk, probability of death, disease risk, and many others. They worry about a series of regulatory requirements forcing them to explain why a particular decision was reached on a single sample, in a clear and defensible manner. Nobody wants to be the first to test a new regulatory standard and it is far easier to continue business-as-usual, so these organizations like their tidy formulas and interpretable coefficients and they won't give them up without good reason. From the perspective of a data scientist, that good reason is lower model bias leading to better predictions further leading to better customer experiences, a reduction in regulatory issues, and ultimately a stronger competitive advantage and higher profits for the enterprise. The first mover has much to gain, but also a lot to lose. By applying the techniques discussed here it should become clear there are ways to create value and effectively mitigate the regulatory risks involved.</p>
-<p>In recent years the "black box" nature of nonlinear machine learnings models has given way to several methods that help us crack open what is happening inside a complex model. Thanks to ongoing research in the field of ML model explainability, we now have at least five good methods with which we can explore the inner workings of our models.</p>
-<p>The goals of this post are to:</p>
-<ol>
-<li>Build an XGBoost binary classifier </li>
-<li>Showcase SHAP to explain model predictions so a regulator can understand</li>
-<li>Discuss some edge cases and limitations of SHAP in a multi-class problem</li>
-</ol>
+<p>In recent years the "black box" nature of nonparametric machine learnings models has given way to several methods that help us crack open what is happening inside a complex model. Thanks to ongoing research in the field of ML model explainability, we now have at least five good methods with which we can explore the inner workings of our models.</p>
 <p>An exhaustive review of all methods is outside the scope of this article, but below is a non-exhaustive set of links for those interested in further research:</p>
 <ul>
 <li><a href="https://xgboost.readthedocs.io/en/latest/python/python_api.html#module-xgboost.plotting">Feature Importance (XGBoost)</a></li>
@@ -1321,6 +1315,12 @@ h6:hover .anchor-link {
 <li><a href="https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime">LIME</a></li>
 <li><a href="https://github.com/slundberg/shap">SHAP</a></li>
 </ul>
+<p>The goals of this post are to:</p>
+<ol>
+<li>Build an XGBoost binary classifier </li>
+<li>Showcase SHAP to explain model predictions so a regulator can understand</li>
+<li>Discuss some edge cases and limitations of SHAP in a multi-class problem</li>
+</ol>
 <p>In <a href="https://towardsdatascience.com/interpretable-machine-learning-with-xgboost-9ec80d148d27">a well-argued piece</a>, one of the team members behind SHAP explains why this is the ideal choice for explaining ML models and is superior to other methods. SHAP stands for 'Shapley Additive Explanations' and it applies game theory to local explanations to create consistent and locally accurate additive feature attributions. If this doesn't make a lot of sense, don't worry, the graphs below will mostly speak for themselves.</p>
 <p>In this post I will demonstrate a simple XGBoost example for a binary and multiclass classification problem, and how to use SHAP to effectively explain what is going on under the hood. I will begin with a binary classifier using the <a href="http://web.stanford.edu/class/archive/cs/cs109/cs109.1166/problem12.html">Titanic Survival Dataset</a>.</p>
 <p>Then we will explain the predictions using SHAP plots like this one:</p>
