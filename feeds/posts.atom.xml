@@ -1642,7 +1642,7 @@ Name: survived, dtype: float64
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[437]:&lt;/div&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[439]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
 &lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;#Set our final hyperparameters to the tuned values&lt;/span&gt;
@@ -1710,7 +1710,7 @@ F1:  0.7437777576040261
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[430]:&lt;/div&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[440]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
 &lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;#Fit the final model&lt;/span&gt;
@@ -1842,7 +1842,7 @@ Test AUC: 0.8747694113701157
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[431]:&lt;/div&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[441]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
 &lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;#take a random row of data&lt;/span&gt;
@@ -1955,7 +1955,7 @@ Predicted Survival (0 = no, 1 = yes): [0]
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[432]:&lt;/div&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[442]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
 &lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;shap&lt;/span&gt;
@@ -2016,7 +2016,7 @@ function r(t,e){if(!o.canUseDOM||e&amp;&amp;!("addEventListener"in document))ret
 
 &lt;div class="output_html rendered_html output_subarea "&gt;
 
-&lt;div id='iK4GQUWMPZOT79YCW3XX2'&gt;
+&lt;div id='i4T3Y9DEFAF1JWLMLRJU3'&gt;
 &lt;div style='color: #900; text-align: center;'&gt;
   &lt;b&gt;Visualization omitted, Javascript library not loaded!&lt;/b&gt;&lt;br&gt;
   Have you run `initjs()` in this notebook? If this notebook was from another
@@ -2027,7 +2027,7 @@ function r(t,e){if(!o.canUseDOM||e&amp;&amp;!("addEventListener"in document))ret
  &lt;script&gt;
    if (window.SHAP) SHAP.ReactDom.render(
     SHAP.React.createElement(SHAP.AdditiveForceVisualizer, {"outNames": ["output value"], "baseValue": 0.3877307099047089, "outValue": 0.1280622782705989, "link": "identity", "featureNames": ["age", "sibsp", "parch", "fare", "family_size", "pclass_2", "pclass_3", "sex_male", "embarked_Q", "embarked_S"], "features": {"0": {"effect": -0.0261813232478172, "value": 29.69911764705882}, "1": {"effect": 0.003609648341891186, "value": 0.0}, "2": {"effect": 0.0014530058227547828, "value": 0.0}, "3": {"effect": -0.05425827641892526, "value": 7.75}, "4": {"effect": 0.013251676573133342, "value": 0.0}, "5": {"effect": 0.004263134839743946, "value": 0.0}, "6": {"effect": -0.0509046805466792, "value": 1.0}, "7": {"effect": -0.16728350194877983, "value": 1.0}, "8": {"effect": -0.01860694307213476, "value": 1.0}, "9": {"effect": 0.03498882802270305, "value": 0.0}}, "plot_cmap": "RdBu", "labelMargin": 20}),
-    document.getElementById('iK4GQUWMPZOT79YCW3XX2')
+    document.getElementById('i4T3Y9DEFAF1JWLMLRJU3')
   );
 &lt;/script&gt;
 &lt;/div&gt;
@@ -2117,7 +2117,31 @@ function r(t,e){if(!o.canUseDOM||e&amp;&amp;!("addEventListener"in document))ret
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Seeing a SHAP plot is like seeing the magician behind the green curtain in the Wizard of Oz. Its beauty lies in how the distribution of feature effects are additive (adding up to the total predicted probability for the &lt;code&gt;1&lt;/code&gt; class) and that they are localized to a single prediction. The table below the plot is the full list of features and their SHAP additive weights. We can see very clearly the model brought down his probability of survival by 16% because &lt;code&gt;sex_male == 1&lt;/code&gt;, and by an additional 5% because &lt;code&gt;pclass_3 == 1&lt;/code&gt;. On the other hand, in his case a &lt;code&gt;family_size == 0&lt;/code&gt; slightly helped his odds along with &lt;code&gt;embarked_S == 0&lt;/code&gt;. When deciding whether an input attribute value helped or hurt his chances SHAP assumes an &lt;em&gt;all else equal&lt;/em&gt; logic - just as you would interpret coefficients (m) in a parametric model (y = mx + b). Now we can use SHAP to view how the features affected the probabilities for a larger sample.&lt;/p&gt;
+&lt;p&gt;Seeing a SHAP plot is like seeing the magician behind the green curtain in the Wizard of Oz. Its beauty lies in how the distribution of feature effects are additive (adding up to the total predicted probability for the &lt;code&gt;1&lt;/code&gt; class) and that they are localized to a single prediction. The table below the plot is the full list of features and their SHAP additive weights. We can see very clearly the model brought down his probability of survival by 16% because &lt;code&gt;sex_male == 1&lt;/code&gt;, and by an additional 5% because &lt;code&gt;pclass_3 == 1&lt;/code&gt;. On the other hand, in his case a &lt;code&gt;family_size == 0&lt;/code&gt; slightly helped his odds along with &lt;code&gt;embarked_S == 0&lt;/code&gt;. When deciding whether an input attribute value helped or hurt his chances SHAP assumes an &lt;em&gt;all else equal&lt;/em&gt; logic - just as you would interpret coefficients (m) in a parametric model (y = mx + b). Furthermore, we can empirically show the additive nature of SHAP holds true: &lt;code&gt;base value (0.38 survival rate for any given passenger) + SUM(SHAP values) == Predicted Probability of Survival&lt;/code&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[471]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;#Prove the sum of SHAP values and base_value sum to our prediction for class 1&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;math&lt;/span&gt;
+&lt;span class="n"&gt;shap_sum&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;explainer&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;expected_value&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;shap_values&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="k"&gt;assert&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;math&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;isclose&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;shap_sum&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;rand_proba&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;&lt;span class="n"&gt;rel_tol&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;1e-06&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="c1"&gt;#if this was False, and error would be thrown&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Now we can use SHAP to view how the features affected the probabilities for a larger sample.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
