@@ -1,0 +1,9 @@
+[submodule "plugins/pelican-jupyter"]
+	path = plugins/pelican-jupyter
+	url = git://github.com/danielfrg/pelican-jupyter.git
+[submodule "themes/soho"]
+	path = themes/soho
+	url = https://github.com/alexandrevicenzi/soho.git
+[submodule "themes/Flex"]
+	path = themes/Flex
+	url = https://github.com/alexandrevicenzi/Flex.git
