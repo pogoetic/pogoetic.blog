@@ -1,0 +1,7 @@
+Title: Portfolio Rebalancing Using Python
+Slug: portfolio-rebalancing-python
+Date: 2018-12-17 16:37
+Category: posts
+Tags: python, finance
+Author: Evgeny Pogorelov
+Summary: A simple portfolio rebalancer using Pandas and the Tiingo API.

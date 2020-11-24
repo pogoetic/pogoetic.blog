@@ -1,0 +1,12 @@
+Markdown
+pelican==4.5.2 
+notebook>=6.0 
+ipython>=4.0 
+nbconvert==5.6.1 
+beautifulsoup4 
+ghp-import==1.0.0 
+matplotlib
+pelican[markdown]
+pelican-sitemap
+pelican-jupyter
+pelican-seo
