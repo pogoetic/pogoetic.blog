@@ -5,84 +5,84 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://evgenypogorelov.com/</loc>
-<lastmod>2020-11-24T14:16:45-00:00</lastmod>
+<lastmod>2022-11-28T13:00:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://evgenypogorelov.com/pages/about.html</loc>
-<lastmod>2018-12-02T10:00:00-08:00</lastmod>
+<lastmod>2018-12-02T10:00:00-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://evgenypogorelov.com/pages/contact.html</loc>
-<lastmod>2018-12-02T10:00:00-08:00</lastmod>
+<lastmod>2018-12-02T10:00:00-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://evgenypogorelov.com/multiclass-xgb-shap.html</loc>
-<lastmod>2019-05-12T21:15:00-07:00</lastmod>
+<lastmod>2019-05-12T21:15:00-04:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://evgenypogorelov.com/portfolio-rebalancing-python.html</loc>
-<lastmod>2018-12-17T16:37:00-08:00</lastmod>
+<lastmod>2018-12-17T16:37:00-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://evgenypogorelov.com/category/posts.html</loc>
-<lastmod>2019-05-12T21:15:00-07:53</lastmod>
+<lastmod>2019-05-12T21:15:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://evgenypogorelov.com/tag/python.html</loc>
-<lastmod>2019-05-12T21:15:00-07:53</lastmod>
+<lastmod>2019-05-12T21:15:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://evgenypogorelov.com/tag/xgboost.html</loc>
-<lastmod>2019-05-12T21:15:00-07:53</lastmod>
+<lastmod>2019-05-12T21:15:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://evgenypogorelov.com/tag/shap.html</loc>
-<lastmod>2019-05-12T21:15:00-07:53</lastmod>
+<lastmod>2019-05-12T21:15:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://evgenypogorelov.com/tag/ml.html</loc>
-<lastmod>2019-05-12T21:15:00-07:53</lastmod>
+<lastmod>2019-05-12T21:15:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://evgenypogorelov.com/tag/finance.html</loc>
-<lastmod>2018-12-17T16:37:00-07:53</lastmod>
+<lastmod>2018-12-17T16:37:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://evgenypogorelov.com/author/evgeny-pogorelov.html</loc>
-<lastmod>2019-05-12T21:15:00-07:53</lastmod>
+<lastmod>2019-05-12T21:15:00-04:56</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>

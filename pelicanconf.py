@@ -19,11 +19,11 @@ CC_LICENSE = {
     'slug': 'by-sa'
 }
 
-COPYRIGHT_YEAR = 2021
+COPYRIGHT_YEAR = 2022
 
-THEME = "Flex"
+THEME = "./themes/Flex/"
 PATH = 'content'
-TIMEZONE = 'America/Los_Angeles'
+TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'en'
 OG_LOCALE = 'en_US'
