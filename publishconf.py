@@ -23,5 +23,5 @@ DELETE_OUTPUT_DIRECTORY = True
 # Following items are often useful when publishing
 
 DISQUS_SITENAME = 'evgenysblog-1'
-GOOGLE_ANALYTICS = "UA-131428314-1"
+GOOGLE_ANALYTICS = "G-DT82FP28W3"
 GOOGLE_TAG_MANAGER = "GTM-WBFQQB6"

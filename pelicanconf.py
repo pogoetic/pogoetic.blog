@@ -95,7 +95,7 @@ STATIC_PATHS = ['images', 'extra']
 IGNORE_FILES = [".ipynb_checkpoints"]  
 
 DISQUS_SITENAME = 'evgenysblog-1'
-GOOGLE_ANALYTICS = "UA-131428314-1"
+GOOGLE_ANALYTICS = "G-DT82FP28W3"
 GOOGLE_TAG_MANAGER = "GTM-WBFQQB6"
 
 # Uncomment following line if you want document-relative URLs when developing
