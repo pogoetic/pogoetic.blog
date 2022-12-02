@@ -96,7 +96,7 @@ IGNORE_FILES = [".ipynb_checkpoints"]
 
 DISQUS_SITENAME = 'evgenysblog-1'
 GOOGLE_ANALYTICS = "G-DT82FP28W3"
-GOOGLE_TAG_MANAGER = "GTM-WBFQQB6"
+#GOOGLE_TAG_MANAGER = "GTM-WBFQQB6"
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
