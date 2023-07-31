@@ -1167,7 +1167,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 &lt;p&gt;Seneca: 
 &amp;gt;&lt;/p&gt;
 &lt;blockquote&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;"He who fears death will never do anything worth of a living man."&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;"He who fears death will never do anything worthy of a living man."&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;"We suffer more often in imagination than in reality."&lt;/p&gt;
 &lt;/li&gt;
@@ -1256,19 +1256,6 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[&amp;nbsp;]:&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-    &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; 
-&lt;/pre&gt;&lt;/div&gt;
-
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
 &lt;/div&gt;
  
 
