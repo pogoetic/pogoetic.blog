@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Evgeny Pogorelov</title><link href="https://evgenypogorelov.com/" rel="alternate"></link><link href="https://evgenypogorelov.com/feeds/all.atom.xml" rel="self"></link><id>https://evgenypogorelov.com/</id><updated>2023-07-30T23:34:00-04:00</updated><subtitle>Side projects and writings</subtitle><entry><title>On Stoic Philosophy</title><link href="https://evgenypogorelov.com/on-stoic-philosophy.html" rel="alternate"></link><published>2023-07-30T23:34:00-04:00</published><updated>2023-07-30T23:34:00-04:00</updated><author><name>Evgeny Pogorelov</name></author><id>tag:evgenypogorelov.com,2023-07-30:/on-stoic-philosophy.html</id><summary type="html">&lt;p&gt;On Stoic Philosophy&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Evgeny Pogorelov</title><link href="https://evgenypogorelov.com/" rel="alternate"></link><link href="https://evgenypogorelov.com/feeds/all.atom.xml" rel="self"></link><id>https://evgenypogorelov.com/</id><updated>2023-07-30T23:34:00-04:00</updated><subtitle>Side projects and writings</subtitle><entry><title>On Stoic Philosophy</title><link href="https://evgenypogorelov.com/on-stoic-philosophy.html" rel="alternate"></link><published>2023-07-30T23:34:00-04:00</published><updated>2023-07-30T23:34:00-04:00</updated><author><name>Evgeny Pogorelov</name></author><id>tag:evgenypogorelov.com,2023-07-30:/on-stoic-philosophy.html</id><summary type="html">&lt;p&gt;A beginners guide to Stoic Philosophy&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -1150,7 +1150,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 &lt;/ol&gt;
 &lt;p&gt;Living a life of virtue is a journey, and no one is perfect. The Stoics emphasized &lt;strong&gt;progress over perfection&lt;/strong&gt;, and by constantly striving to live in accordance with these principles, we can lead a more virtuous and fulfilling life.&lt;/p&gt;
 &lt;h2 id="Stoic-Sayings"&gt;Stoic Sayings&lt;a class="anchor-link" href="#Stoic-Sayings"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Stoic philosophy is filled with insightful quotes that offer guidance and wisdom for life's journey. Here are some famous Stoic quotes that can help inspire and guide:&lt;/p&gt;
-&lt;p&gt;Epictetus:
+&lt;p&gt;Epictetus: 
 &amp;gt;&lt;/p&gt;
 &lt;blockquote&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;"It's not what happens to you, but how you react to it that matters."&lt;/p&gt;
@@ -1163,7 +1163,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Seneca:
+&lt;p&gt;Seneca: 
 &amp;gt;&lt;/p&gt;
 &lt;blockquote&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;"He who fears death will never do anything worth of a living man."&lt;/p&gt;
